@@ -1,0 +1,112 @@
+/* Declaring custom properties */
+* {
+  /*box-sizing: border-box;*/
+  /*border: thin solid black;*/
+}
+
+body {
+  margin: 0;
+  margin-top: -1em;
+}
+
+.carrito {
+  background-color: black;
+}
+
+.carrito li {
+  color: grey;
+  list-style-type: none;
+  text-align: right;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  background-color: #454545;
+  margin-top: -1em;
+}
+
+.logo img {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 1em;
+}
+
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.menu {
+font-weight: bold;
+text-align: center;
+word-spacing: 120px;
+color: #636363;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+#menu-icon { display: none !important; }
+
+/* .show {display: inline-block;} */
+
+/* Código que se ejecutará sólo en pantallas más pequeñas que 1024px */
+@media screen and (max-width: 1024px) {
+
+  .menu li {
+    display: block;
+  }
+
+  #menu-icon {
+    display: inline !important;
+    float:  right;
+  }
+
+  .menu li:not(:first-child) { display: none; }
+
+  .show {display: block !important;}
+
+}
+
+.foto {
+}
+
+.ladrillos {
+}
+
+.portland {
+  background-color: grey;
+}
+
+.gutters {
+}
+
+.info {
+  background-color: grey;
+}
+
+.customers {
+}
+
+.gallery {
+  background-color: grey;
+}
+
+.services {
+}
+
+.copy {
+  background-color: #f8c420;
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #454545;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
