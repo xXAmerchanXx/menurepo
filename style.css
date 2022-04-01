@@ -43,6 +43,10 @@ body {
   list-style-type: none;
 }
 
+.menu li:hover {
+  color: #f9c521;
+}
+
 .menu {
 font-weight: bold;
 text-align: center;
@@ -99,6 +103,30 @@ padding-bottom: 15px;
 }
 
 .services {
+  background-color: #454545;
+}
+
+.services > ul {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+list-style-type: none;
+color: white;
+font-weight: bold;
+text-align: right;
+padding-top: 50px;
+font-size: 25px;
+}
+
+.services p {
+  padding-left: 255px;
+  color: grey;
+  padding-bottom: 80px;
+}
+
+.ccb {
+  font-size: 12px;
+  padding-top: 13px;
+  text-align: center;
 }
 
 .copy {
