@@ -78,55 +78,122 @@ padding-bottom: 15px;
 
 }
 
-.foto {
+.free {
+  position: absolute;
+  background-color: black;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 50%;
+  bottom: 10%;
+  padding: 120px;
 }
 
-.ladrillos {
+.free p {
+  color: white;
+  height: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 
-.portland {
-  background-color: grey;
+.button BUTTON {
+  background-color: #f8c420;
+  margin-left: 100px;
+  padding: 5px;
 }
 
-.gutters {
+.portlan img {
+  margin-top: 50px;
 }
 
-.info {
-  background-color: grey;
+.portlan h2 {
+  font-weight: bold;
 }
 
-.customers {
+.portlan li {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: grey;
 }
 
-.gallery {
-  background-color: grey;
+.portlan {
+  text-align: center;
+}
+
+.portlan h3 {
+  font-weight: bold;
+}
+
+.portlan h3:hover {
+  color: cyan;
+}
+
+.portlan i {
+  padding-bottom: 15px;
+}
+
+.xek {
+  background-color: #e9e9e9;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+}
+
+.xek h4 {
+  text-align: center;
+}
+
+.xek ul {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.xek li {
+  color: grey;
+  text-align: center;
 }
 
 .services {
   background-color: #454545;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .services > ul {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
 list-style-type: none;
 color: white;
 font-weight: bold;
-text-align: right;
-padding-top: 50px;
+text-align: center;
 font-size: 25px;
 }
 
-.services p {
-  padding-left: 255px;
+.porlan {
   color: grey;
-  padding-bottom: 80px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .ccb {
   font-size: 12px;
   padding-top: 13px;
-  text-align: center;
+  text-align: left;
+}
+
+.wa {
+  font-size: 12px;
+  padding-top: 13px;
+  text-align: left;
+}
+
+.ora {
+  text-align: left;
+}
+
+.sat {
+  text-align: left;
+  color: grey;
+  font-size: 16px;
 }
 
 .copy {

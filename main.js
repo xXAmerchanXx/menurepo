@@ -22,6 +22,14 @@ fetch("./menu.html")
       document.querySelector("foto").innerHTML = data;
     });
 
+    fetch("./cuerpo.html")
+      .then(response => {
+        return response.text()
+      })
+      .then(data => {
+        document.querySelector("cuerpo").innerHTML = data;
+      });
+
   fetch("./footer.html")
     .then(response => {
       return response.text()
